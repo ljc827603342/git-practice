@@ -35,6 +35,15 @@ def 显示菜单():
     print("0. 退出")
     print("-" * 30)
 
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+if __name__ == "__main__":
+    print(f"10 + 5 = {add(10, 5)}")
+    print(f"10 - 5 = {subtract(10, 5)}")
 
 if __name__ == "__main__":
     while True:
