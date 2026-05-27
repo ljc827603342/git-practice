@@ -46,8 +46,9 @@ def multiply(a, b):
 
 def divide(a, b):
     if b != 0:
-        return round(a / b, 2)
-    return "错误：除数不能为零"
+        from decimal import Decimal
+        return float(Decimal(str(round(a / b, 2))))
+    return "除数不能为零！"
 
 if __name__ == "__main__":
     print(f"10 + 5 = {add(10, 5)}")
