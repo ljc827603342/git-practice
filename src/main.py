@@ -46,8 +46,9 @@ def multiply(a, b):
 
 def divide(a, b):
     if b != 0:
-        return a / b
-    return "Error: Division by zero"
+        from decimal import Decimal, DivisionByZero
+        return float(Decimal(str(a)) / Decimal(str(b)))
+    return "除数不能为零！"
 
 if __name__ == "__main__":
     print(f"10 + 5 = {add(10, 5)}")
