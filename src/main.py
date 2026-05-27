@@ -51,16 +51,6 @@ def divide(a, b):
     return "除数不能为零！"
 
 if __name__ == "__main__":
-    print(f"10 + 5 = {add(10, 5)}")
-    print(f"10 - 5 = {subtract(10, 5)}")
-    print(f"10 * 5 = {multiply(10, 5)}")
-    print(f"10 / 5 = {divide(10, 5)}")
-
-if __name__ == "__main__":
-    print(f"10 + 5 = {add(10, 5)}")
-    print(f"10 - 5 = {subtract(10, 5)}")
-
-if __name__ == "__main__":
     while True:
         显示菜单()
         选择 = input("请输入你的选择：")

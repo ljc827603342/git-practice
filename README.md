@@ -29,3 +29,10 @@ python src/main.py
 ## 学习目标
 
 通过本项目的提交、分支、合并等操作，掌握 Git 的基本使用方法。
+
+## 运行测试
+
+```bash
+pip install pytest
+pytest tests/ -v
+```
