@@ -35,20 +35,6 @@ def 显示菜单():
     print("0. 退出")
     print("-" * 30)
 
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    if b != 0:
-        from decimal import Decimal
-        return float(Decimal(str(round(a / b, 2))))
-    return "除数不能为零！"
 
 if __name__ == "__main__":
     while True:

@@ -40,25 +40,3 @@ def test_除法_正常():
 
 def test_除法_除数为零():
     assert main.除法(5, 0) == "错误：除数不能为零"
-
-
-# ========== 英文函数测试 ==========
-
-def test_add():
-    assert main.add(10, 5) == 15
-
-
-def test_subtract():
-    assert main.subtract(10, 5) == 5
-
-
-def test_multiply():
-    assert main.multiply(10, 5) == 50
-
-
-def test_divide():
-    assert main.divide(10, 5) == 2.0
-
-
-def test_divide_by_zero():
-    assert main.divide(10, 0) == "除数不能为零！"
